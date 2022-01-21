@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addTierheim {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+button {
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.tierheim-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tierheim {
+  width: 500px;
+  height: 75px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+
+.tierheim div {
+  margin: 20px;
+}
